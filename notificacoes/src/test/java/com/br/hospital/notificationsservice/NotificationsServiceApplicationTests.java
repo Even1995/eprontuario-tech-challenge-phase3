@@ -1,4 +1,4 @@
-package com.br.hospital.notificationsservice;
+package com.br.eprontuario.notificationsservice;
 
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;

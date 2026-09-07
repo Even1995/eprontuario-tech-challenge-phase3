@@ -1,7 +1,7 @@
-package com.br.hospital.notificationsservice.adapter.in.rest.controller;
+package com.br.eprontuario.notificationsservice.adapter.in.rest.controller;
 
-import com.br.hospital.notificationsservice.adapter.out.jpa.repository.NotificationJpaRepository;
-import com.br.hospital.notificationsservice.domain.entity.NotificationStatus;
+import com.br.eprontuario.notificationsservice.adapter.out.jpa.repository.NotificationJpaRepository;
+import com.br.eprontuario.notificationsservice.domain.entity.NotificationStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

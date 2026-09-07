@@ -1,8 +1,8 @@
-package com.br.hospital.notificationsservice.adapter.out.jpa.repository;
+package com.br.eprontuario.notificationsservice.adapter.out.jpa.repository;
 
-import com.br.hospital.notificationsservice.adapter.out.jpa.entity.NotificationJpaEntity;
-import com.br.hospital.notificationsservice.domain.entity.Notification;
-import com.br.hospital.notificationsservice.domain.entity.NotificationStatus;
+import com.br.eprontuario.notificationsservice.adapter.out.jpa.entity.NotificationJpaEntity;
+import com.br.eprontuario.notificationsservice.domain.entity.Notification;
+import com.br.eprontuario.notificationsservice.domain.entity.NotificationStatus;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;

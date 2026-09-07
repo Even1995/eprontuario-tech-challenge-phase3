@@ -1,7 +1,7 @@
-package com.br.hospital.notificationsservice.adapter.out.jpa.repository;
+package com.br.eprontuario.notificationsservice.adapter.out.jpa.repository;
 
-import com.br.hospital.notificationsservice.adapter.out.jpa.entity.NotificationJpaEntity;
-import com.br.hospital.notificationsservice.domain.entity.NotificationStatus;
+import com.br.eprontuario.notificationsservice.adapter.out.jpa.entity.NotificationJpaEntity;
+import com.br.eprontuario.notificationsservice.domain.entity.NotificationStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

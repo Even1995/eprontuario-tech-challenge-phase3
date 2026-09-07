@@ -69,7 +69,7 @@ kafka:
 logging:
   level:
     root: INFO
-    com.br.hospital: DEBUG
+    com.br.eprontuario: DEBUG
     org.springframework.kafka: INFO
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"

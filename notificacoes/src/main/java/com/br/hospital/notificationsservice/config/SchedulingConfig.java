@@ -1,4 +1,4 @@
-package com.br.hospital.notificationsservice.config;
+package com.br.eprontuario.notificationsservice.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

@@ -1,4 +1,4 @@
-package com.br.hospital.notificationsservice.domain.entity;
+package com.br.eprontuario.notificationsservice.domain.entity;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

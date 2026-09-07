@@ -1,6 +1,6 @@
-package com.br.hospital.notificationsservice.adapter.out.jpa.entity;
+package com.br.eprontuario.notificationsservice.adapter.out.jpa.entity;
 
-import com.br.hospital.notificationsservice.domain.entity.NotificationStatus;
+import com.br.eprontuario.notificationsservice.domain.entity.NotificationStatus;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;

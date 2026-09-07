@@ -1,6 +1,6 @@
-package com.br.hospital.notificationsservice.adapter.in.rest.controller;
+package com.br.eprontuario.notificationsservice.adapter.in.rest.controller;
 
-import com.br.hospital.notificationsservice.adapter.out.jpa.repository.NotificationJpaRepository;
+import com.br.eprontuario.notificationsservice.adapter.out.jpa.repository.NotificationJpaRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

@@ -1,4 +1,4 @@
-package com.br.hospital.notificationsservice;
+package com.br.eprontuario.notificationsservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
-    "com.br.hospital.notificationsservice",
-    "com.br.hospital.authcommon"
+    "com.br.eprontuario.notificationsservice",
+    "com.br.eprontuario.authcommon"
 })
 public class NotificationsServiceApplication {
 

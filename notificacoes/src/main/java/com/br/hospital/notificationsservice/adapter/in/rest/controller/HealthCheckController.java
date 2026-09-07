@@ -1,4 +1,4 @@
-package com.br.hospital.notificationsservice.adapter.in.rest.controller;
+package com.br.eprontuario.notificationsservice.adapter.in.rest.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.br.hospital.notificationsservice.config;
+package com.br.eprontuario.notificationsservice.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

@@ -11,7 +11,7 @@ jwt:
 
 logging:
   level:
-    com.br.hospital: DEBUG
+    com.br.eprontuario: DEBUG
     org.springframework.security: DEBUG
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"

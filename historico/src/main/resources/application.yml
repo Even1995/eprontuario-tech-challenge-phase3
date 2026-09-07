@@ -72,7 +72,7 @@ management:
 logging:
   level:
     root: INFO
-    com.br.hospital: DEBUG
+    com.br.eprontuario: DEBUG
     org.springframework.web: DEBUG
     org.springframework.graphql: DEBUG
     org.springframework.kafka: INFO

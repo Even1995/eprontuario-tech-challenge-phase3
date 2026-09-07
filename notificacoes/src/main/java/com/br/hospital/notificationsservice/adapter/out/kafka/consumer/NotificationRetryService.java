@@ -1,8 +1,8 @@
-package com.br.hospital.notificationsservice.adapter.out.kafka.consumer;
+package com.br.eprontuario.notificationsservice.adapter.out.kafka.consumer;
 
-import com.br.hospital.notificationsservice.adapter.out.jpa.entity.NotificationJpaEntity;
-import com.br.hospital.notificationsservice.adapter.out.jpa.repository.NotificationJpaRepository;
-import com.br.hospital.notificationsservice.domain.entity.NotificationStatus;
+import com.br.eprontuario.notificationsservice.adapter.out.jpa.entity.NotificationJpaEntity;
+import com.br.eprontuario.notificationsservice.adapter.out.jpa.repository.NotificationJpaRepository;
+import com.br.eprontuario.notificationsservice.domain.entity.NotificationStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;

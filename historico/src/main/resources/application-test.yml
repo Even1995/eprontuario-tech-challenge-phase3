@@ -40,4 +40,4 @@ management:
 logging:
   level:
     root: WARN
-    com.br.hospital: DEBUG
+    com.br.eprontuario: DEBUG
