@@ -1,0 +1,91 @@
+scalar DateTime
+
+directive @authenticated on FIELD_DEFINITION | OBJECT | FIELD_DEFINITION
+
+enum AppointmentStatus {
+    SCHEDULED
+    COMPLETED
+    CANCELLED
+    NO_SHOW
+    RESCHEDULED
+}
+
+type Appointment {
+    id: ID!
+    startAt: DateTime!
+    endAt: DateTime!
+    status: AppointmentStatus!
+    notes: String
+    doctorId: ID!
+    nurseId: ID
+    patientId: ID!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+}
+
+type PageInfo {
+    hasNextPage: Boolean!
+    hasPreviousPage: Boolean!
+    totalCount: Int!
+    pageSize: Int!
+    currentPage: Int!
+}
+
+type AppointmentConnection {
+    edges: [AppointmentEdge!]!
+    pageInfo: PageInfo!
+}
+
+type AppointmentEdge {
+    node: Appointment!
+    cursor: String!
+}
+
+input AppointmentFilter {
+    status: AppointmentStatus
+    startDateFrom: DateTime
+    startDateTo: DateTime
+    endDateFrom: DateTime
+    endDateTo: DateTime
+}
+
+type Query {
+    appointmentById(id: ID!): Appointment @authenticated
+    
+    patientAppointments(
+        patientId: ID!
+        futureOnly: Boolean = false
+        limit: Int = 10
+        offset: Int = 0
+        filter: AppointmentFilter
+    ): AppointmentConnection! @authenticated
+    
+    appointmentsByDoctor(
+        doctorId: ID!
+        limit: Int = 10
+        offset: Int = 0
+        filter: AppointmentFilter
+    ): AppointmentConnection! @authenticated
+    
+    appointmentsByStatus(
+        status: AppointmentStatus!
+        limit: Int = 10
+        offset: Int = 0
+    ): AppointmentConnection! @authenticated
+    
+    appointmentStats: AppointmentStats! @authenticated
+}
+
+type AppointmentStats {
+    totalAppointments: Int!
+    completedAppointments: Int!
+    cancelledAppointments: Int!
+    noShowAppointments: Int!
+    scheduledAppointments: Int!
+}
+
+type Error {
+    message: String!
+    code: String!
+    timestamp: DateTime!
+}
