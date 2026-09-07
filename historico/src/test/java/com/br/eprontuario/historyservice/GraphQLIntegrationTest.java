@@ -1,4 +1,4 @@
-package com.br.hospital.historyservice;
+package com.br.eprontuario.historyservice;
 
 import org.springframework.boot.test.autoconfigure.graphql.GraphQlTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureDataJpa;

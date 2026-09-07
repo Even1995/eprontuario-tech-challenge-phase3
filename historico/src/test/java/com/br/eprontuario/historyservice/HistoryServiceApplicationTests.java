@@ -1,4 +1,4 @@
-package com.br.hospital.historyservice;
+package com.br.eprontuario.historyservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

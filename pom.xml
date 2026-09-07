@@ -23,7 +23,8 @@
 	</developers>
     <modules>
         <module>historico</module>
-    </modules>
+		<module>auth-common</module>
+	</modules>
     <scm>
 		<connection/>
 		<developerConnection/>

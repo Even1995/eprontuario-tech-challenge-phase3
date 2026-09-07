@@ -1,4 +1,4 @@
-package com.br.hospital.historyservice;
+package com.br.eprontuario.historyservice;
 
 import com.br.historico.service.adapter.out.jpa.entity.AppointmentGraphQLEntity;
 import com.br.historico.service.adapter.out.jpa.repository.HistoryRepository;
