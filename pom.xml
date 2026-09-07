@@ -24,6 +24,7 @@
     <modules>
         <module>historico</module>
 		<module>auth-common</module>
+		<module>notificacoes</module>
 	</modules>
     <scm>
 		<connection/>
